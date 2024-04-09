@@ -1,0 +1,56 @@
+#app {
+    height: 100vh; //视口宽高
+    width: 100vw; //视口宽高
+
+    .open {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        .sidebar-container {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 210px;
+            height: 100%;
+            background-color: #304156;
+
+            .nav-sidebar {
+                li {
+                    padding: 0 20px;
+                    height: 70px;
+                    line-height: 70px;
+
+                    div {
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        svg {
+                            margin-bottom: 4px;
+                            color: #dcdfe6;
+                        }
+
+                        span {
+                            position: absolute;
+                            left: 20px;
+                            font-size: 16px;
+                            color: #dcdfe6;
+                            padding: 0 10px;
+                        }
+
+                        .bi {
+                            color: #dcdfe6;
+                        }
+                    }
+                }
+
+                li:hover {
+                    background-color: #263445;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
