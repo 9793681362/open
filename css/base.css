@@ -14,5 +14,18 @@ a {
 
 a:hover {
     text-decoration: none;
+}
 
+.form-input-300 {
+    width: 300px;
+}
+
+
+.form-input-100 {
+    width: 100px;
+}
+
+
+.form-input-150 {
+    width: 150px;
 }
