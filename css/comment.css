@@ -1,0 +1,87 @@
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+#app .open {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#app .open .sidebar-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210px;
+  height: 100%;
+  background-color: #304156;
+}
+#app .open .sidebar-container .nav-sidebar li {
+  padding: 0 20px;
+  height: 70px;
+  line-height: 70px;
+}
+#app .open .sidebar-container .nav-sidebar li div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#app .open .sidebar-container .nav-sidebar li div svg {
+  margin-bottom: 4px;
+  color: #dcdfe6;
+}
+#app .open .sidebar-container .nav-sidebar li div span {
+  position: absolute;
+  left: 20px;
+  font-size: 16px;
+  color: #dcdfe6;
+  padding: 0 10px;
+}
+#app .open .sidebar-container .nav-sidebar li div .bi {
+  color: #dcdfe6;
+}
+#app .open .sidebar-container .nav-sidebar li:hover {
+  background-color: #263445;
+  cursor: pointer;
+}
+.main-container {
+  margin-left: 210px;
+  height: 100%;
+}
+.main-container header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.main-container header .head-left {
+  display: flex;
+  align-items: center;
+}
+.main-container header .head-left .list-container {
+  margin-top: 5px;
+  padding: 0 10px;
+}
+.main-container header .head-left .list-container svg {
+  height: 25px;
+  width: 25px;
+}
+.main-container header .head-left span span {
+  margin: 0 5px;
+}
+.main-container header .head-right {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.main-container header .head-right .username {
+  font-size: 14px;
+}
+.main-container header .head-right .logo {
+  margin: 0 2px 0 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.main-container header .head-right i svg {
+  width: 10px;
+  margin-top: 18px;
+}
