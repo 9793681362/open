@@ -8,7 +8,7 @@
   width: 100%;
 }
 #app .open .sidebar-container {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 210px;
@@ -84,37 +84,4 @@
 .main-container header .head-right i svg {
   width: 10px;
   margin-top: 18px;
-}
-.app-container .app-main {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-.app-container .app-main .search-bar {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.app-container .app-main .search-bar span {
-  margin-left: 10px;
-}
-.app-container .app-main .search-bar button {
-  margin-left: 10px;
-}
-.app-container .app-main main {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #E8E8E8;
-}
-.app-container .app-main main .price {
-  display: flex;
-}
-.app-container .app-main main .price .item-lable {
-  padding: 16px 20px;
-  min-width: 100px;
-}
-.app-container .app-main main .price .item-row {
-  flex: 1;
 }

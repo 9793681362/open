@@ -1,0 +1,244 @@
+#app {
+  height: 100vh;
+  width: 100%;
+}
+#app .open {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#app .open .sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 210px;
+  height: 100%;
+  background-color: #304156;
+}
+#app .open .sidebar-container .nav-sidebar li {
+  padding: 0 20px;
+  height: 70px;
+  line-height: 70px;
+}
+#app .open .sidebar-container .nav-sidebar li div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#app .open .sidebar-container .nav-sidebar li div svg {
+  margin-bottom: 4px;
+  color: #dcdfe6;
+}
+#app .open .sidebar-container .nav-sidebar li div span {
+  position: absolute;
+  left: 20px;
+  font-size: 16px;
+  color: #dcdfe6;
+  padding: 0 10px;
+}
+#app .open .sidebar-container .nav-sidebar li div .bi {
+  color: #dcdfe6;
+}
+#app .open .sidebar-container .nav-sidebar li:hover {
+  background-color: #263445;
+  cursor: pointer;
+}
+.app-container .app-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.app-container .app-main .search-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.app-container .app-main .search-bar span {
+  margin-left: 10px;
+}
+.app-container .app-main .search-bar button {
+  margin-left: 10px;
+}
+.app-container .app-main main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #E8E8E8;
+}
+.app-container .app-main main .price {
+  display: flex;
+}
+.app-container .app-main main .price .item-lable {
+  padding: 16px 20px;
+  min-width: 100px;
+}
+.app-container .app-main main .price .item-row {
+  flex: 1;
+}
+.app-container .app-main main .price .item-row ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.app-container .app-main main .price .item-row ul li,
+.app-container .app-main main .price .item-row ul div {
+  padding: 16px 24px;
+}
+.app-container .app-main main .price .item-row ul li a,
+.app-container .app-main main .price .item-row ul div a {
+  color: #3E3F6A;
+}
+.app-container .app-main main .price .item-row ul .iteam-input {
+  display: flex;
+  align-items: center;
+}
+.app-container .app-main main .price .item-row ul .iteam-input div {
+  padding: 0;
+}
+.app-container .app-main main .brand {
+  display: flex;
+}
+.app-container .app-main main .brand .item-lable {
+  padding: 16px 20px;
+  min-width: 100px;
+}
+.app-container .app-main main .brand .item-row {
+  flex: 1;
+}
+.app-container .app-main main .brand .item-row ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.app-container .app-main main .brand .item-row ul li,
+.app-container .app-main main .brand .item-row ul div {
+  padding: 16px 24px;
+}
+.app-container .app-main main .brand .item-row ul li a,
+.app-container .app-main main .brand .item-row ul div a {
+  color: #3E3F6A;
+}
+.app-container .app-main main .brand .item-row ul .iteam-input {
+  display: flex;
+  align-items: center;
+}
+.app-container .app-main main .brand .item-row ul .iteam-input div {
+  padding: 0;
+}
+.app-container .app-main main .brand .item-row ul .more {
+  color: #409EFF;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-bottom: 1px solid #dcdfe6;
+}
+.button-group ul {
+  display: flex;
+  margin: 0;
+}
+.button-group ul li {
+  padding: 0 20px;
+  border: 1px solid #dcdfe6;
+  border-bottom: none;
+  line-height: 40px;
+}
+.button-group ul li:nth-child(1) {
+  border-radius: 3px 0 0 0;
+}
+.button-group ul li:nth-child(2) {
+  border-radius: 0 3px 0 0;
+  border-left: none;
+}
+.button-group div button {
+  margin-left: 10px;
+}
+.chake-product {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 12px;
+}
+.chake-product input {
+  margin: 0;
+}
+.chake-product span {
+  line-height: 100%;
+  padding-left: 5px;
+}
+.section-list .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-list .list .list-box {
+  width: 250px;
+  padding-top: 10px;
+  margin: 20px 0 30px 20px;
+}
+.section-list .list .list-box img {
+  width: 100%;
+}
+.section-list .list .list-box ul {
+  margin: 10px 0;
+}
+.section-list .list .list-box ul li {
+  margin: 0;
+  border: 0;
+}
+.section-list .list .list-box ul a {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  color: #409EFF;
+}
+.section-list .list .list-box:hover {
+  box-shadow: 0 0 5px #888;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+}
+.pagination .page-no {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.pagination .page-no li {
+  padding: 0 4px;
+  margin: 0 5px;
+  font-size: 14px;
+}
+.pagination .cta-button {
+  position: relative;
+  padding: 0 10px;
+}
+.pagination .cta-button input {
+  padding: 0 5px;
+}
+.pagination .cta-button span {
+  position: absolute;
+  transform: translate(-124%, 4%);
+}
+.pagination .go-page {
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+.pagination .go-page input {
+  text-align: center;
+  width: 50px;
+  margin: 0 3px;
+}
+.pagination .left {
+  margin-right: 20px;
+}
+.pagination .right {
+  margin: 0 20px;
+}
+.generate-proposal {
+  margin: 30px auto 0;
+}
